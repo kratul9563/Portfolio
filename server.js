@@ -16,7 +16,7 @@ app.use(express.json());
 //routes
 app.use('/api/v1/portfolio',require('./routes/portfolioRoute'));
 //ports
-const PORT = process.env.PORT || 8080;
+const PORT = 3000;
 
 
 // listen
